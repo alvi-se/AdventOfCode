@@ -17,8 +17,6 @@ vector<vector<int>> loadInput(string filename)
     vector<int>* current = &*(cals.end() - 1);
     int val;
 
-    
-
     while (!stream.eof())
     {
         if (stream.peek() == '\n')

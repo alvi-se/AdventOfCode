@@ -1,9 +1,6 @@
-#include <cstdio>
-#include <exception>
 #include <ostream>
-#include <sstream>
-#include <utility>
 #include <vector>
+#include <sstream>
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -91,6 +88,7 @@ public:
     {
         string str;
         std::ostringstream stream{str};
+        // NOT WORKING
         stream << opponent << ' ' << player;
         return str;
     }
